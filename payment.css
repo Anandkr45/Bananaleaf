@@ -1,0 +1,239 @@
+/* Navbar container */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 648px;
+    background-color: #333; /* Set your desired background color */
+    z-index: 100; /* Make sure the navbar appears above other content */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+  }
+  .topnav-right {
+    float: right;
+  
+  }
+
+  
+
+  #title{
+    font-family: 'Cinzel', serif;
+  }
+  
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px 16px;
+    padding-top: 14px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #9712ac;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+body {
+   font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  .sub-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #subb{
+    font-family: 'Cinzel', serif;
+  }
+
+  .subscription {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Cinzel', serif;
+  }
+
+  .plan h2 {
+    color: #333;
+  }
+
+  .plan p {
+    color: #666;
+  }
+
+  .price {
+    font-size: 24px;
+    color: #ff9900;
+  }
+
+  .subscribe-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #219ecf;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .subscribe-button:hover {
+    background-color:  #325ea8;
+  }
+
+  form {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  button[type="submit"],
+  input[type="password"]   {
+    padding: 10px;
+    margin: 5px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button[type="submit"] {
+    background-color:  #219ecf;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color:  #325ea8;
+  }
+
+  #error-message {
+    margin-top: 10px;
+  }
+
+  .container {
+    background-color: #302f49;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  .item1{
+    background-color: #302f49;
+    color: white;
+    font-size: 15px;
+    padding: 30px;
+    margin: 30px;
+    padding-right: 120px;
+  
+  }
+  
+  .item2{
+    background-color: #302f49;
+    color: white;
+    font-size: 15px;
+    padding: 30px;
+    margin: 30px;
+    padding-right: 110px;
+  
+  }
+  
+  .item3{
+    background-color: #302f49;
+    color: white;
+    font-size: 15px;
+    padding: 30px;
+    margin: 30px;
+  }
+  
+  .ltext{
+    color: white;
+    font-size: 15px;
+  }
+  
+  #title{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    align-items: center;
+  }
+  
+  .slinks{
+    height: 20px;
+    width: 30px;
+    margin: 4px;
+  }
+  
+  .mlinks{
+    font-family: 'Cinzel', serif;
+  color: #f2f2f2;
+  }
+  
+  
